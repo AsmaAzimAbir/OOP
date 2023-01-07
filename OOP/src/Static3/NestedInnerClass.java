@@ -2,13 +2,14 @@ package Static3;
 
 public class NestedInnerClass {
 
-	static int x = 10;
+	int x = 10;
 	
 	static class Inner
 	{
 		static void msg()
 		{
-			System.out.println("Value of x = "+x);
+			NestedInnerClass nic = new NestedInnerClass();
+			System.out.println("Value of x = "+nic.x);
 		}
 	}
 	
