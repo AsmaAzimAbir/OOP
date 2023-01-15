@@ -11,9 +11,5 @@ public class testEmployee {
 		e1.setEmpBalance(1000);
 		
 		e1.getEmpBalance();
-		
-		
-		
-		
 	}
 }
