@@ -47,8 +47,4 @@ public class Employee {
 	public void setEmpBalance(double empBalance) {
 		this.empBalance = empBalance;
 	}
-	
-	
-	
-	
 }
